@@ -17,7 +17,7 @@ Goo.prototype.bar = function (name: string): string {
 //So how does work instanceof operator.
 
 //It tests whether the prototype property of a constructor exists somewhere in another object.
-//One of the ways to do that withoud instanceof operator is the getPrototypeOf method.
+//One of the ways to do that without instanceof operator is the getPrototypeOf method.
 
 
 const foo = new Foo();
