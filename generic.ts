@@ -1,3 +1,10 @@
+//                                                  Intro to Typescript generic classes
+
+/*
+A generic class has a generic type parameter list in an angle brackets <> that follows the name of the class. 
+For example class could have properties of different types depending on what is passed in to the constructor.
+*/
+
 class Type<Gen> {
     firstName:Gen;
     lastName:Gen;
